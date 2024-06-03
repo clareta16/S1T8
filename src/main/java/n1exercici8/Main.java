@@ -7,7 +7,7 @@ public class Main {
                 (s) -> new StringBuilder(s).reverse().toString();
 
         String sentence = "Hola, què tal?";
-        String reversed = functionalInterface.reverse(sentence); //girar frase
+        String reversed = functionalInterface.reverse(sentence); //per fer reverse sentence
 
         System.out.println(reversed);
     }
