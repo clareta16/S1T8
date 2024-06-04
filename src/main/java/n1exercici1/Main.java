@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static List<String> filterStringsContainingO(List<String> paraules) {
-        return paraules.stream() // converteix la llista de paraule en un flux
+        return paraules.stream() // converteix la llista de paraules en un flux
                 .filter(s -> s.contains("o")) // paràmetre -> expressió
                 // aplica un filtre al flux, deixant passar només les cadenes amb o
 

@@ -14,7 +14,7 @@ public class Main {
                     .filter(e -> e instanceof String)
                     .map(e -> (String) e)
                     .sorted(Comparator.comparingInt(String::length))
-                    .collect(Collectors.toList());
+                    .toList();
 
 
             sortedStrings.forEach(System.out::println);
